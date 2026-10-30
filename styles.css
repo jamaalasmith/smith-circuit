@@ -97,7 +97,8 @@ h1 {
 .signup input,
 .signup button {
   font: inherit;
-  font-size: 16px; /* prevents iOS zoom on focus */
+  font-size: 16px;
+  /* prevents iOS zoom on focus */
   border-radius: 6px;
   padding: 14px 16px;
   min-height: 48px;
@@ -189,6 +190,22 @@ h2 {
   grid-column: 2;
   margin-top: 4px;
   color: var(--muted);
+}
+
+/* Coming soon tag, matches the hero badge */
+.tag {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+  padding: 2px 10px;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 999px;
 }
 
 /* Footer */
